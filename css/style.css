@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --primary-strong-cyan: hsl(171, 66%, 44%);
+    --primary-light-blue: hsl(233, 100%, 69%);
+    --neutral-dark-grayish-blue: hsl(210, 10%, 33%);
+    --neutral-grayish-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+    width: 380px;
+    background-color: white;
+    /* padding: 0 1.2em; */
+}
+
+.computer, .devices {
+    width: 340px;
+}
+
+.intro {
+    /* margin-bottom: 9em; */
+    /* margin: 0 1.2em 9em 1.2em;  */
+    min-height: 100vh;
+    color: var(--neutral-dark-grayish-blue);
+    background-image: url('../images/bg-header-mobile.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.big-logo {
+    margin-top: 7em;
+}
+
+.title {
+    margin: 2em 1em 0.5em 1em;
+}
+
+
+.sub-title {
+    color: var(--neutral-grayish-blue);
+    margin: 0 2.2em 3em 2.2em;
+    line-height: 25px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+.download-ios {
+   background-color: var(--primary-strong-cyan);
+   padding: 1em 0;
+   border-radius: 50px;
+   border: none;
+   box-shadow: 0 4px #167567;
+   margin-bottom: 1em;
+   color: white;
+   font-family: 'Bai Jamjuree', sans-serif;
+   font-size: 1.1em;
+   font-weight: 600;
+}
+
+.download-mac {
+    background-color: var(--primary-light-blue);
+    padding: 1em 0;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 4px #167567;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.benefit-title {
+    font-size: 1.8em;
+    color: var(--neutral-dark-grayish-blue);
+    margin: 0 1em 0.5em 1em;
+    /* margin-bottom: 0.5em; */
+}
+
+.computer {
+    margin: 1em 0 3em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--neutral-dark-grayish-blue);
+    margin-bottom: 0.7em;
+}
+
+.second-benefit {
+    margin: 12em 0 0 0;
+}
+
+.devices {
+    margin-bottom: 6em;
+}
+
+.third-benefit .sub-title {
+    margin-bottom: 5em;
+}
+
+.icon-improve {
+    margin: 1em 0 1.5em 0;
+}
+
+.trusted-brand {
+    margin: 8em 0 5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trusted-brand img {
+    width: 140px;
+    margin-bottom: 4em;
+}
+
+.closing {
+    padding-bottom: 10em;
+}
+
+footer {
+    background-color: #f5f6f8;
+    padding: 3em 0;
+}
+
+.small-logo {
+    margin-bottom: 2em;
+    width: 55px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.contact-info p {
+    margin-bottom: 2em;
+    color: var(--neutral-dark-grayish-blue);
+}
+
+.footer-icons img {
+    margin: 0 1em;
+}
+
+@media only screen and (min-width: 1440px) {
+    /* For desktop: */
+   
+}
+
+
+
+
+
+
+
+
+
+
+
