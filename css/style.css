@@ -25,7 +25,6 @@ body {
 .container {
     width: 380px;
     background-color: white;
-    /* padding: 0 1.2em; */
 }
 
 .computer, .devices {
@@ -33,8 +32,6 @@ body {
 }
 
 .intro {
-    /* margin-bottom: 9em; */
-    /* margin: 0 1.2em 9em 1.2em;  */
     min-height: 100vh;
     color: var(--neutral-dark-grayish-blue);
     background-image: url('../images/bg-header-mobile.png');
@@ -92,7 +89,6 @@ body {
     font-size: 1.8em;
     color: var(--neutral-dark-grayish-blue);
     margin: 0 1em 0.5em 1em;
-    /* margin-bottom: 0.5em; */
 }
 
 .computer {
@@ -164,7 +160,125 @@ footer {
 
 @media only screen and (min-width: 1440px) {
     /* For desktop: */
-   
+   .container {
+       width: 100%;
+   }
+
+   .title {
+       font-size: 2.7em;
+   }
+
+   .intro .sub-title {
+       font-size: 1.2em;
+       width: 50%;
+       margin: 0 auto;
+       line-height: 34px;
+   }
+
+   .sub-title {
+       font-size: 1.2em;
+       width: 54%;
+       line-height: 34px;
+       margin: 0 auto;
+   }
+
+   .btn-group {
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin-top: 4em;
+   }
+
+   .download-ios {
+       margin: 0 1em 0 0;
+       padding: 1em 2.5em;
+
+   }
+
+   .download-mac {
+       margin-left: 1em;
+       padding: 1em 2.5em;
+   }
+
+   .benefit-title {
+       font-size: 2.5em;
+       margin: 1em 1em 0.5em 1em;
+   }
+
+   .small-content {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-top: 5em;
+       text-align: left;
+   }
+
+   .computer {
+       width: 700px;
+   }
+
+   .sub-benefit {
+       margin-left: 5em;
+   }
+
+   .sub-benefit p {
+       font-size: 1em;
+       margin: 0 0 3em 0;
+   }
+
+   .devices {
+       width: 900px;
+       margin-top: 5em;
+   }
+
+   .improve-workflow {
+       display: flex;
+       justify-content: center; 
+   }
+
+   .improve-workflow img {
+       width: 45px;
+       height: 38px;
+   }
+
+   .improve-workflow p {
+        font-size: 1em;
+        width: 100%;
+   }
+
+   .improve-1, .improve-2, .improve-3 {
+       width: 25%;
+   }
+
+   .trusted-brand {
+       flex-direction: row;
+       justify-content: space-between;
+       width: 75%;
+       margin: 5em auto;
+   }
+
+   footer {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+
+   .footer-options {
+       width: 70%;
+       text-align: left;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+   }
+
+   .footer-options p {
+       font-size: 1.2em;
+   }
+
+   .faq, .privacy, .guide {
+       margin-bottom: 1em;
+   }
+
 }
 
 
